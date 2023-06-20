@@ -2174,6 +2174,11 @@ input, select, textarea {
 		margin: 0 0 2em 0;
 	}
 
+	.price-list {
+		max-width: 100%;
+		max-height:100%;
+	}
+
 /* Actions */
 
 	ul.actions {
@@ -2552,14 +2557,15 @@ input, select, textarea {
 		list-style: none;
 		padding: 0;
 		width: 100%;
+		margin:0 auto;
 	}
 
 		.features li {
-			padding: 4em 4em 2em 6em ;
 			display: block;
 			position: relative;
-			text-align: left;
-			width: 50%;
+			text-align: center;
+			margin:0 auto; 
+			width: 80%;
 		}
 
 			.features li:nth-child(1) {
@@ -2602,14 +2608,14 @@ input, select, textarea {
 				background-color: rgba(0, 0, 0, 0.35);
 			}
 
-			.features li:before {
+		.features li:before {
 				display: block;
 				color: #00ffcc;
 				position: absolute;
 				left: 1.75em;
 				top: 2.75em;
 				font-size: 1.5em;
-			}
+			} 
 
 			.features li:nth-child(1) {
 				border-top-left-radius: 3px;
@@ -2627,6 +2633,7 @@ input, select, textarea {
 				border-bottom-left-radius: 3px;
 			}
 
+		
 			@media screen and (max-width: 980px) {
 
 				.features li {
@@ -2656,6 +2663,24 @@ input, select, textarea {
 						border-top: 0;
 					}
 
+			}
+
+			ul.features > li > ul.sub-list{
+				margin:0 auto;
+				width:90%;
+				padding:0 30px 40px 30px;
+			}
+
+			ul.features > li > ul.sub-list > li{
+				    list-style: none;
+					padding:3px;
+					background-color: #814128;
+					text-align: center;
+					width: 100%;
+			}
+
+			.features h3{
+				margin-top: 10px;
 			}
 
 /* Spotlight */
@@ -2980,7 +3005,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style3 {
-			background-color: #505393;
+			background-color: #814128;
 			color: #d3d4e4;
 		}
 
