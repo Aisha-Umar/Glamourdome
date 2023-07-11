@@ -311,6 +311,10 @@
 
 /* Section/Article */
 
+	.aboutus{
+		text-align: center;
+	}
+
 	section, article {
 		&.special {
 			text-align: center;
@@ -1907,10 +1911,12 @@
 			padding-top: 0;
 		}
 
-		#footer {
+	#footer {
 			background-color: darken(transparentize(_palette(bg), 0.1), 8);
-		}
+		} 
 	}
+
+
 
 	body.is-mobile {
 		&.landing {

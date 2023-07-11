@@ -1754,8 +1754,22 @@ input, select, textarea {
 
 /* Section/Article */
 
-	section.special, article.special {
+	section.special, article.special, section.aboutus{
 		text-align: center;
+	}
+
+	section.aboutus{
+		background-color:rgba(129, 65, 40, 0.8) ;
+		height:400px;
+		display:flex;
+		align-items: center;
+  }
+
+	.aboutus p{
+		
+		max-width:80%;
+		margin:0 auto;
+		padding:40px;
 	}
 
 	header p {
@@ -3342,6 +3356,9 @@ input, select, textarea {
 
 		}
 
+		
+	
+
 /* Page Wrapper + Menu */
 
 	#page-wrapper {
@@ -3376,7 +3393,7 @@ input, select, textarea {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		-webkit-overflow-scrolling: touch;
-		background: #21b2a6;
+		background: #136b64;
 		color: #ffffff;
 		height: 100%;
 		max-width: 80%;
@@ -3851,6 +3868,20 @@ input, select, textarea {
 		text-align: center;
 	}
 
+	#banner2 {
+		padding: 12em 0 10em 0 ;
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		text-align: center;
+	}
+
+
 		#main > header h2 {
 			font-size: 1.75em;
 			margin: 0 0 0.5em 0;
@@ -3987,6 +4018,8 @@ input, select, textarea {
 
 		}
 
+	
+
 /* Landing */
 
 	body.landing #page-wrapper {
@@ -4001,8 +4034,24 @@ input, select, textarea {
 		padding-top: 0;
 	}
 
+	body.landing2 #page-wrapper {
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 0;
+	}
+
 	body.landing #footer {
 		background-color: rgba(29, 36, 42, 0.9);
+	}
+
+	body.landing2 #footer{
+		background-color: rgb(29, 36, 42, .8); 
 	}
 
 	body.is-mobile.landing #page-wrapper {
@@ -4023,3 +4072,19 @@ input, select, textarea {
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
 	}
+
+	/*About Page*/
+
+	body.is-mobile.landing2 #banner,
+	body.is-mobile.landing2 .wrapper.style4{
+		background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../../images/blueEyeShadow.jpg");
+		background-attachment: fixed;
+		background-position: center center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		padding-top: 0;
+		}
+		
