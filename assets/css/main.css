@@ -1772,6 +1772,52 @@ input, select, textarea {
 		padding:40px;
 	}
 
+	#my-gallery,#contact-form{
+		height: 900px;
+	}
+
+	.name, .email, .msg{
+		width:500px;
+	}
+
+	.msg{
+		height: 400px;
+	}
+
+	section .gallery {
+		display:flex;
+		justify-content: center;
+		align-items: center;
+	}
+
+	.gallery .img-gallery, .contactform{
+		display:flex;
+		justify-content: center;
+		align-items:flex-;
+		flex-wrap: wrap;
+		width:80%;
+		margin:0 auto;
+		
+	}
+
+	.img-gallery img{
+		width:250px;
+		padding:8px;
+		margin:0;
+	}
+
+	.img-gallery img:nth-child(even){
+		height:250px;
+	}
+
+	.img-gallery img:nth-child(odd){
+		height:350px;
+	}
+
+	.img-gallery img:nth-child(5){
+		margin-top: -100px;
+    }
+
 	header p {
 		color: rgba(255, 255, 255, 0.5);
 		position: relative;
